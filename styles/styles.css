@@ -82,6 +82,96 @@ a hover {
     justify-content: center;
     align-content: center;}
 
+.hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 500px;
+    text-align: center;
+    color: #f8ebeb;
+}
+
+.hero img {
+    width: 100%;
+    z-index: -1;
+    grid-column: 1/4;
+    grid-row: 1/2;
+}
+
+.mainheader{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    align-content: center;
+    font-size: 1.2em;
+}
+
+.ggrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 400px 400px 400px;
+}
+
+.ggrid img {
+    border: 5px inset silver;
+    padding: 5px;
+    margin: 5px;
+    display: block;
+    max-width: 92.5%;
+}
+
+#c1r1{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin-top: 60px;
+}
+#c1r2{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    margin-top: 60px;
+}
+#c1r3{
+    grid-column: 1/2;
+    grid-row: 3/4;
+    margin-top: 60px;
+}
+#c2r1{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    max-width: 280px;
+    position: relative;
+    transform: translate(12.5%, 0%);
+}
+#c2r2{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    max-width: 280px;
+    position: relative;
+    transform: translate(12.5%, 0%);
+}
+
+#c2r3{
+    grid-column: 3/4;
+    grid-row: 1/2;
+    max-width: 280px;
+    justify-self: center;
+    position: relative;
+    transform: translate(12.5%, 0%);
+}
+#c3r1{
+    grid-column: 3/4;
+    grid-row: 1/2;
+    margin-top: 60px;
+}
+#c3r2{
+    grid-column: 3/4;
+    grid-row: 2/3;
+    margin-top: 60px;
+}
+#c3r3{
+    grid-template-columns: 3/4;
+    grid-template-rows: 3/4;
+    margin-top: 60px;
+}
+
 footer img {
     margin: 0 auto;
     width: 50px;}
