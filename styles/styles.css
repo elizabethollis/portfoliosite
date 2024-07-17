@@ -167,8 +167,8 @@ a hover {
     margin-top: 60px;
 }
 #c3r3{
-    grid-template-columns: 3/4;
-    grid-template-rows: 3/4;
+    grid-column: 3/4;
+    grid-row: 3/4;
     margin-top: 60px;
 }
 
