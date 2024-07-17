@@ -203,6 +203,10 @@ a hover {
     grid-row: 2/3;  
     margin-top: 60px;
     color: black;
+    display: block;
+    background: #ffffff80;
+    justify-content: center;
+    height: 150px;
 }
 #week1{
     display: grid;
@@ -304,7 +308,7 @@ a hover {
 .jointext{
     display: block;
     margin-left: 100px;
-    background-color: #26375780;
+    background-color: #263757;
     color: white;
     text-align: center;
     padding: 50px;
